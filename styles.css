@@ -1,0 +1,52 @@
+body {
+	background: black;
+}
+
+* {
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 320px;
+	margin: auto;
+}
+
+h1 {
+	font-family: "Slabo 27px", serif;
+	width: 350px;
+	padding: 2%;
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
+	font-family: "Slabo 27px", serif;
+}
+.body-left {
+	padding: 1%;
+}
+.body-right {
+	padding: 2%;
+}
+
+.postcard-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: 10%;
+}
+
+.test-information {
+	border-style: none;
+	border-bottom: 1px solid gray;
+	padding: 5px 5px;
+	margin: 5px 5px;
+}
+
+.send-buttom {
+	width: 150px;
+}
